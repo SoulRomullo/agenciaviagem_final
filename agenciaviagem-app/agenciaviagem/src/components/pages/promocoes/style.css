@@ -1,0 +1,17 @@
+.page_body{
+    background-color: white;
+  
+}
+
+.imgCidades{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;       
+}
+
+.box_Img{
+    text-align: center;
+    padding-bottom: 60px;
+}

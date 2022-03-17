@@ -1,0 +1,16 @@
+.form_body{
+    background-color: white;
+    color:black;
+}
+.btnSalvar{
+    margin-left: 30px;
+}
+.txtAdicionar{
+    background-color: rgb(124, 124, 124);
+    color: white;
+    width: 130px;
+    height: 30px;
+    padding-top: 2px;
+    border-radius: 15px;
+    text-align: center;
+}

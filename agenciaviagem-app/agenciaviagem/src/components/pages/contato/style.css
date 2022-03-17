@@ -1,0 +1,11 @@
+.body_contato{
+    background-color: white;
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+.body_contato a{
+    text-decoration: none;
+}
+.body_contato h1{
+    padding-top: 20px;
+} 
