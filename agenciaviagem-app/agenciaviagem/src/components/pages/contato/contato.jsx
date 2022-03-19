@@ -20,8 +20,8 @@ class ContatoComponent extends Component{
                 cep.987654-370<br/>
                 <u>Telefone:</u> (11)98765-4321</p>
 
-                <b>Suporte: </b><a href="#" type="email">agencia_viagem@exemple.com</a><br/>
-                <b>Marketing: </b><a href='#' type='email'>marketing_viagem@exemple.com</a>
+                <b>Suporte: </b><a href="/#" type="email">agencia_viagem@exemple.com</a><br/>
+                <b>Marketing: </b><a href='/#' type='email'>marketing_viagem@exemple.com</a>
                
             </div>
         )

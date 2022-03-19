@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\Romullo\Desktop\agenciaviagem_final\agenciaviagem"/>
+			<item value="D:\Curso RecodePro\Trabalho React e Spring 18-03-2022\agenciaviagem_final\agenciaviagem"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

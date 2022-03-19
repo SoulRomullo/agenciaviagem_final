@@ -10,6 +10,7 @@ import ContatoComponent from './components/pages/contato/contato'
 import PromocoesComponent from './components/pages/promocoes/promocoes'
 import ListUsuarioComponent from './components/pages/listaUsuario/listaUsuario';
 import ViewUsuarioComponent from './components/pages/view/viewUsuario';
+import DadosSalvar from './components/pages/pageSalvar/dadosSalvos';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/promocoes" component={PromocoesComponent}></Route>
           <Route path="/lista" component={ListUsuarioComponent}></Route>
           <Route path="/view-usuario/:id" component={ViewUsuarioComponent}></Route>
+          <Route path="/salvo" component={DadosSalvar}></Route>
         </Switch>
         <Footer/>
       </Router>

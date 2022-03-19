@@ -45,11 +45,11 @@ class CreateUsuarioComponent extends Component {
 
         if (this.state.id === '_add') {
             UsuarioService.createUsuario(usuario).then(res => {
-                this.props.history.push('/usuario');
+                this.props.history.push("/salvo");
             });
         } else {
             UsuarioService.updateUsuario(usuario, this.state.id).then(res => {
-                this.props.history.push('/usuario');
+                this.props.history.push("/salvo");
             });
         }
     }
@@ -85,9 +85,8 @@ class CreateUsuarioComponent extends Component {
         if (this.state.id === '_add') {
             return <p>Adicionar Usuário</p>
         } else {
-            return <p>Atualizar Cadastro</p>
+            return <p>Atualizar Cadastro</p> 
         }
-
     }
 
     render() {
@@ -122,7 +121,8 @@ class CreateUsuarioComponent extends Component {
 
                 <button className='btn btn-success mb-5 mt-5 btnSalvar' onClick={this.saveOrUpdateUsuario}>Salvar</button>
                 <button className='btn btn-danger mb-5 mt-5 btnSalvar' onClick={this.cancel.bind(this)}>Cancelar</button>
-                <button className='btn btn-warning mb-5 mt-5 btnSalvar' onClick={this.atualizar.bind(this)}>Atualizar</button>
+                <button className='btn btn-warning mb-5 mt-5 btnSalvar' onClick={this.atualizar.bind(this)}>Voltar</button>
+
             </div>
         );
     }

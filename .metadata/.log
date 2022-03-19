@@ -1,4 +1,4 @@
-!SESSION 2022-03-17 08:37:02.155 -----------------------------------------------
+!SESSION 2022-03-18 21:16:42.409 -----------------------------------------------
 eclipse.buildId=4.13.1.202201311654
 java.version=17.0.1
 java.vendor=Eclipse Adoptium
@@ -6,15 +6,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-!ENTRY org.eclipse.jface 2 0 2022-03-17 08:37:14.251
+!ENTRY org.eclipse.jface 2 0 2022-03-18 21:17:19.758
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-17 08:37:14.252
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-18 21:17:19.758
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ad26381,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21780905,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -22,17 +22,17 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b20aa21,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47666b39,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-17 08:37:14.252
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-18 21:17:19.758
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
 		Rename the selected element,
 		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f5167f0,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2dbcee03,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -40,154 +40,74 @@ Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
 		Rename the selected item,
 		Category(org.eclipse.ui.category.file,File,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1260c85e,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c8672b9,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2022-03-17 08:37:21.818
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-18 21:17:26.259
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Romullo'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:37:54.991
+!ENTRY org.eclipse.ui 2 2 2022-03-18 21:18:22.995
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:18:51.604
 !MESSAGE Entering DelegatingStreamConnectionProvider()
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:37:55.083
-!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@23465414[org.springframework.tooling.boot.ls:1.30.0.202201310805(id=564)]
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:18:51.620
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@62d50b63[org.springframework.tooling.boot.ls:1.30.0.202201310805(id=564)]
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:37:55.122
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:18:51.638
 !MESSAGE SpringBootLanguageServer exists!
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:37:55.148
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:18:51.798
 !MESSAGE Instantiating ReusableClasspathListenerHandler
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.218
-!MESSAGE Boot LS startup time from start to initialized: 9088ms
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:01.424
+!MESSAGE Boot LS startup time from start to initialized: 9770ms
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.434
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WACcMkpXisBatched = true
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:01.802
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.huKtxYrCisBatched = true
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.436
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:01.805
 !MESSAGE Setting up ClasspathListenerManager
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.439
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:01.807
 !MESSAGE Scheduling initial event for all projects ...
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.441
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:01.807
 !MESSAGE Scheduling initial event for all projects DONE
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.441
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WACcMkpX => OK
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:01.808
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.huKtxYrC => OK
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.442
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:01.808
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.458
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:01.819
 !MESSAGE classpath=91 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.463
-!MESSAGE buffering callback sts4.classpath.WACcMkpX agenciaviagem false 91
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:01.823
+!MESSAGE buffering callback sts4.classpath.huKtxYrC agenciaviagem false 91
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.466
-!MESSAGE executing callback sts4.classpath.WACcMkpX 1 batched events
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:01.824
+!MESSAGE executing callback sts4.classpath.huKtxYrC 1 batched events
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:38:04.980
-!MESSAGE executing callback sts4.classpath.WACcMkpX SUCCESS [done]
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 21:19:03.452
+!MESSAGE executing callback sts4.classpath.huKtxYrC SUCCESS [done]
 
-!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-03-17 08:48:08.101
-!MESSAGE Execution exception for: ParameterizedCommand(Command(AnsiConsole.command.copy_without_escapes,Copy text without escapes,
-		Copy the console content to clipboard, removing the escape sequences,
-		Category(AnsiConsole.command.categoryid,Ansi Console Commands,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@482741af,
-		,,true),null) in 
-	context chain: WorkbenchContext -> TrimmedWindowImpl (IDEWindow) Context -> PerspectiveImpl (org.eclipse.jdt.ui.JavaPerspective) Context -> PartImpl (org.eclipse.ui.console.ConsoleView) Context -> PageSite
-!STACK 0
-org.eclipse.core.commands.ExecutionException: Error executing 'AnsiConsole.command.copy_without_escapes': java.lang.IllegalArgumentException: Argument not valid
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:170)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1280)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1059)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1069)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1111)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1107)
-	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1536)
-	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4875)
-	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4753)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5002)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-Caused by: org.eclipse.e4.core.di.InjectionException: java.lang.IllegalArgumentException: Argument not valid
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	... 44 more
-Caused by: java.lang.IllegalArgumentException: Argument not valid
-	at org.eclipse.swt.SWT.error(SWT.java:4888)
-	at org.eclipse.swt.SWT.error(SWT.java:4822)
-	at org.eclipse.swt.SWT.error(SWT.java:4793)
-	at org.eclipse.swt.dnd.DND.error(DND.java:296)
-	at org.eclipse.swt.dnd.DND.error(DND.java:241)
-	at org.eclipse.swt.dnd.Clipboard.setContents(Clipboard.java:500)
-	at org.eclipse.swt.dnd.Clipboard.setContents(Clipboard.java:435)
-	at mnita.ansiconsole.utils.AnsiClipboardUtils.textToClipboard(AnsiClipboardUtils.java:61)
-	at mnita.ansiconsole.commands.CopyWithoutEscapesHandler.execute(CopyWithoutEscapesHandler.java:25)
-	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	... 48 more
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 22:43:53.699
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.huKtxYrC
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:48:13.035
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WACcMkpX
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 22:43:53.699
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.huKtxYrC
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:48:13.036
-!MESSAGE unsubscribing from classpath changes: sts4.classpath.WACcMkpX
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:48:13.037
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 22:43:53.700
 !MESSAGE subsribers = {}
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-17 08:48:13.037
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WACcMkpX => OK
-
-!ENTRY org.eclipse.ui 2 2 2022-03-17 08:48:13.524
-!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-18 22:43:53.700
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.huKtxYrC => OK
